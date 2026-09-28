@@ -1,0 +1,24 @@
+Name,Unit,Expression,Value,Comments,Favorite
+brand,Text,"'Atlas RV Solutions'",Atlas RV Solutions,,false
+columnConnectorLength,in,0.2 in,0.20,,false
+columnDiameter,in,0.6 in,0.60,,false
+columnEmboss,in,0.03 in,0.03,,false
+columnLength,in,6 in,6.00,,false
+faceCokeBottleDiameter,in,2.75 in,2.75,,false
+faceDinnerPlateThickness,in,0.71 in,0.71,,false
+faceGridCountDepth,,15,15,,false
+faceGridCountWidth,,25,25,,false
+faceGridCutoutSize,in,0.15 in,0.15,,false
+shelfHoleClearance,in,0.01 in,0.01,,false
+shelfHoleDiameter,in,threadedStudDiameter * threadClearanceScale + shelfHoleClearance,0.442,,false
+shelfBorder,in,0.2 in,0.20,,false
+shelfDepth,in,10 in,10.00,,false
+shelfFaceDepth,in,shelfDepth - ( 2 * shelfBorder ),9.60,,false
+shelfFaceWidth,in,shelfWidth - ( 2 * shelfBorder ),9.60,,false
+shelfThickness,in,0.1 in,0.10,,false
+shelfWidth,in,10 in,10.00,,false
+tappedHoleDepth,in,0.5 in,0.50,,false
+tappedHoleDiameter,in,threadedStudDiameter,0.472,,false
+threadClearanceScale,,0.915,0.915,%,false
+threadedStudDiameter,in,0.4724 in,0.472,12mm (M12),false
+version,Text,"'V4.1'",V5.0,,true

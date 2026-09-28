@@ -1,0 +1,75 @@
+Name,Unit,Expression,Value,Comments,Favorite
+shelfWidth,in,10 in,10.00,,false
+shelfDepth,in,10 in,10.00,,false
+shelfThickness,in,0.1 in,0.10,,false
+faceGridCutoutSize,in,0.15 in,0.15,,false
+faceGridCountWidth,,25,25,,false
+faceGridCountDepth,,15,15,,false
+pinReceiverDiameter,in,pinDiameter - pinTensionAdjustment,0.242,,false
+shelfBorder,in,0.2 in,0.20,,false
+shelfFaceWidth,in,shelfWidth - ( 2 * shelfBorder ),9.60,,false
+shelfFaceDepth,in,shelfDepth - ( 2 * shelfBorder ),9.60,,false
+faceCokeBottleDiameter,in,2.75 in,2.75,,false
+stabilizerLength,in,1.25 in,1.25,,false
+faceDinnerPlateThickness,in,0.71 in,0.71,,false
+trussThickness,in,0.1 in,0.10,,false
+tabInset,in,trussThickness / 2,0.05,,false
+tabWidth,in,0.5 in,0.50,,false
+tab1Offset,in,tabBaseOffset + tabWidth / 2,0.40,,false
+tab2Offset,in,tabBaseOffset + ( tabWidth / 2 ) + tabSeparation,1.10,,false
+tabBaseOffset,in,0.15 in,0.15,,false
+tabSeparation,in,tabWidth + 0.2 in,0.70,,false
+columnWallThickness,in,0.1 in,0.10,,false
+columnClearance,in,0.25 in,0.25,,false
+cornerBossCenterOffset,in,0.5 in + columnWallThickness + columnClearance,0.85,,false
+shelfCornerBossHeight,in,0.3 in,0.30,,false
+bossInnerDiameter,in,bossDiameter - columnWallThickness,0.30,,false
+bossTaper,deg,-5 deg,-5.0,,false
+bossTensionAdjustment,in,0.01 in,0.01,,false
+tabHeight,in,0.3 in,0.30,,false
+tabThickness,in,0.075 in,0.075,,false
+pinTensionAdjustment,in,0.008 in,0.008,,false
+columnSocketDiameter,in,0.5 in,0.50,,false
+columnBossSocketDepth,in,0.3 in,0.30,,false
+columnSocketEndCapThickness,in,0.1 in,0.10,,false
+pinDiameter,in,0.250 in,0.25,,false
+columnPinLength,in,0.3 in,0.30,,false
+columnHeight,in,1 in,1.00,,false
+columnOuterDiameter,in,0.5 in,0.50,,false
+columnWall,in,0.06 in,0.06,,false
+bossDiameter,in,0.4 in,0.40,,false
+columnInnerDiameter,in,columnOuterDiameter - ( 2 * columnWallThickness ),0.30,,false
+columnInnerHollowLength,in,columnHeight - columnSocketEndCapThickness - columnPinEndCapThickness,0.80,,false
+columnPinEndCapThickness,in,0.1 in,0.10,,false
+trussWidth,in,0.3 in,0.30,,false
+trussLength,in,( 2 * tab2Offset + 0.5 in ),2.70,,false
+trussStudLength,in,0.2 in,0.20,,false
+trussStudDiameter,in,0.18 in,0.18,,false
+cornerLegLength,in,1.5 in,1.50,,false
+footHeight,in,columnPinLength + 0.05 in,0.35,,false
+pinTaper,deg,5 deg,5.0,,false
+columnConnectorLength,in,0.2 in,0.20,,false
+columnEmboss,in,0.03 in,0.03,,false
+brand,Text,"'Atlas RV Solutions'",Atlas RV Solutions,,false
+version,Text,"'V4.1'",V4.1,,true
+bossReceiverDiameter,in,bossDiameter - bossTensionAdjustment,0.39,,false
+bossWallThickness,in,0.15 in,0.15,,false
+columnDiameter,in,0.6 in,0.60,,false
+plateHoleDiameter,in,threadedStudDiameter * threadClearanceScale + plateHoleClearance,0.442,,false
+tappedHoleDiameter,in,threadedStudDiameter,0.472,,false
+tappedHoleDepth,in,0.5 in,0.50,"
+",false
+columnLength,in,6 in,6.00,,false
+threadedStudDiameter,in,0.4724 in,0.472,12mm (M12),false
+plateHoleClearance,in,0.01 in,0.01,,false
+studLength,in,tappedHoleDepth - 0.15 in,0.35,,false
+threadClearanceScale,,0.915,0.915,%,false
+columnDiameter_1,in,0.6 in,0.60,,false
+plateHoleDiameter_1,in,threadedStudDiameter_1 * threadClearanceScale_1 + plateHoleClearance_1,0.442,,false
+tappedHoleDiameter_1,in,threadedStudDiameter_1,0.472,,false
+tappedHoleDepth_1,in,0.5 in,0.50,"
+",false
+threadedStudDiameter_1,in,0.4724 in,0.472,12mm (M12),false
+plateHoleClearance_1,in,0.01 in,0.01,,false
+studLength_1,in,tappedHoleDepth_1 - 0.15 in,0.35,,false
+threadClearanceScale_1,,0.915,0.915,%,false
